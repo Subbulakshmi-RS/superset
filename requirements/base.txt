@@ -236,7 +236,7 @@ pyyaml==5.4.1
     #   apispec
 redis==3.5.3
     # via apache-superset
-requests==2.26.0
+requests==2.31.0
     # via apache-superset
 sasl==0.3.1
     # via -r requirements/base.in
