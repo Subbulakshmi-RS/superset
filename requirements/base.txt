@@ -35,7 +35,7 @@ cachelib==0.1.1
     # via apache-superset
 celery==4.4.7
     # via apache-superset
-certifi==2021.5.30
+certifi==2023.7.22
     # via
     #   -r requirements/base.in
     #   requests
