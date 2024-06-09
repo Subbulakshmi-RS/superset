@@ -31,7 +31,7 @@ iniconfig==1.1.1
     # via pytest
 ipdb==0.13.9
     # via -r requirements/testing.in
-ipython==7.26.0
+ipython==8.10.0
     # via
     #   -r requirements/testing.in
     #   ipdb
@@ -65,7 +65,7 @@ ptyprocess==0.7.0
     # via pexpect
 pyfakefs==4.5.0
     # via -r requirements/testing.in
-pygments==2.9.0
+pygments==2.15.0
     # via ipython
 pyhive[hive,presto]==0.6.4
     # via
@@ -96,3 +96,5 @@ websocket-client==1.2.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
