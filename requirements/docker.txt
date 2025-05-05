@@ -8,7 +8,7 @@
 -r base.txt
 -e file:.
     # via -r requirements/base.in
-gevent==21.8.0
+gevent==25.4.1
     # via -r requirements/docker.in
 greenlet==1.1.1
     # via gevent
@@ -21,3 +21,4 @@ zope.interface==5.4.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
