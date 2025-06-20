@@ -18,7 +18,7 @@ cached-property==1.5.2
     # via tableschema
 et-xmlfile==1.1.0
     # via openpyxl
-flask-cors==3.0.10
+flask-cors==6.0.0
     # via -r requirements/development.in
 future==0.18.2
     # via pyhive
@@ -74,3 +74,4 @@ xlrd==2.0.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
